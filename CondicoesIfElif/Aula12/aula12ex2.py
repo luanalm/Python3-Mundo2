@@ -4,10 +4,10 @@
 # 2 - Octal
 # 3 - Hexadecimal
 
-b = int(input('''Escolha para qual você deseja converter um número.
-1 - Binário
-2 - Octal
-3 - Hexadecimal
+b = int(input('''Escolha para qual base você deseja converter um número.
+[ 1 ] - Binário
+[ 2 ] - Octal
+[ 3 ] - Hexadecimal
 Digite o número da base de conversão escolhida (1, 2 ou 3): '''))
 
 if b == 1:
